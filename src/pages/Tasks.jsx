@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { Table, Button, Container, Row, Col } from 'react-bootstrap';
 import Add from '../pages/Add';
 import Edit from '../pages/Edit';
-import '../app.css'; // Ensure your CSS styles are loaded
+import '../App.css'; // Ensure your CSS styles are loaded
 import { taskDeleteAPI, userTasksAPI } from '../services/allAPI';
-import '../App.css'
+
 
 const Tasks = () => {
   const [username, setUsername] = useState('');
